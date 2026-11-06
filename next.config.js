@@ -10,7 +10,9 @@ const nextConfig = {
       },
     ],
   },
-  output: 'standalone',
+  output: 'export',
+  // export statico: nessuna API route, pagina interamente statica
+  trailingSlash: true,
 }
 
 module.exports = nextConfig

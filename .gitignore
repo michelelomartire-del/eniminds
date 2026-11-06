@@ -17,3 +17,4 @@ turbo
 *.pem
 vercel.log
 *.log
+.taste-skill/

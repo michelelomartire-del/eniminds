@@ -1,10 +1,8 @@
-import Image from 'next/image'
-
 export function Priorita() {
   return (
-    <section id="priorita" className="py-24 lg:py-32 bg-white">
-      <div className="wrap mx-auto px-6 max-w-7xl">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+    <section id="priorita" className="min-h-[100svh] bg-white flex items-center">
+      <div className="wrap mx-auto max-w-7xl">
+        <div className="grid lg:grid-cols-2 gap-24 items-start">
           <div>
             <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Le nostre priorità</h2>
             <p className="mb-6 text-lg text-slate-600 leading-relaxed">
@@ -14,26 +12,28 @@ export function Priorita() {
             </p>
             <ul className="space-y-4 text-lg text-slate-600 leading-relaxed">
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 mt-1 text-emerald-600">▸</span>
+                <span className="flex-shrink-0 mt-1 text-emerald-700">▸</span>
                 Sostenibilità ESG e reporting
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 mt-1 text-emerald-600">▸</span>
+                <span className="flex-shrink-0 mt-1 text-emerald-700">▸</span>
                 Innovazione e infrastrutture energetiche
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 mt-1 text-emerald-600">▸</span>
+                <span className="flex-shrink-0 mt-1 text-emerald-700">▸</span>
                 Gestione dell’energia per imprese e PA
               </li>
             </ul>
           </div>
-          <div className="relative h-[420px]">
-            <Image
-              src="https://eniminds.com/wp-content/uploads/2024/12/streamline_industry-innovation-and-infrastructure.svg"
+          <div className="relative">
+            <img
+              src="/images/streamline.svg"
               alt="Innovazione tecnologica"
-              fill
-              className="object-contain p-8 rounded-xl bg-white shadow-lg hover:scale-[1.02] transition duration-500"
-              sizes="(max-width: 768px) 100vw, 50vw"
+              width="640"
+              height="480"
+              className="w-full h-[500px] object-contain p-8 rounded-xl bg-white shadow-lg hover:scale-[1.02] transition duration-500"
+              decoding="async"
+              loading="lazy"
             />
           </div>
         </div>
