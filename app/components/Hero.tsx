@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 export function Hero() {
   return (
-    <section id="hero" className="relative h-[900px] flex flex-col justify-center items-start overflow-hidden bg-white bg-[url('/images/eniminds-hero.jpg')] bg-cover bg-center">
-      <div className="relative z-10 wrap mx-auto max-w-7xl pt-8 pb-8">
-        <div className="hero-text inline-block bg-white/90 backdrop-blur-sm p-6 rounded-lg shadow">
+    <section id="hero" className="relative h-[900px] flex flex-col justify-start items-start overflow-hidden bg-white">
+      <div className="relative z-10 wrap mx-auto max-w-7xl pt-20 pb-12">
+        <div className="hero-text">
           <span className="inline-block px-3 py-1 mb-6 text-xs font-semibold tracking-widest uppercase text-slate-900 bg-slate-100 rounded-full">
             Consulenza energetica e sostenibilità
           </span>
@@ -33,6 +33,15 @@ export function Hero() {
             </Link>
           </div>
         </div>
+
+        <img
+          src="/images/eniminds-hero.jpg"
+          alt="Sede operativa Eniminds"
+          className="mt-8 w-full h-[96px] object-cover object-bottom rounded-xl shadow-lg"
+          decoding="async"
+          loading="eager"
+          aria-hidden="true"
+        />
       </div>
     </section>
   )

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Footer() {
   return (
-    <footer className="footer closing bg-slate-900 text-slate-200 border-t border-slate-800 min-h-[100svh] flex flex-col justify-center items-start">
+    <footer className="footer closing bg-slate-900 text-slate-200 border-t border-slate-800 min-h-[900px] flex flex-col justify-center items-start">
       <div className="wrap mx-auto max-w-7xl py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-1">
@@ -38,7 +38,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-slate-300">
               <li className="text-slate-300">Via Emilia, San Lazzaro di Savena (BO)</li>
               <li><Link href="mailto:info@eniminds.example" className="text-emerald-400 hover:text-emerald-300 transition-colors">info@eniminds.example</Link></li>
-              <li className="text-[10px] uppercase tracking-wider text-slate-300 mt-4">Privacy — iubenda</li>
+              <li className="text-[10px] uppercase tracking-wider text-slate-400 mt-4">Privacy — iubenda</li>
             </ul>
           </div>
         </div>

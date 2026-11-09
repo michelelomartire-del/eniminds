@@ -18,8 +18,8 @@ export function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
-      <nav className="wrap mx-auto max-w-7xl">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200 nav">
+      <div className="wrap mx-auto max-w-7xl">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
             <img
@@ -48,7 +48,7 @@ export function Navbar() {
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
         </div>
-      </nav>
+      </div>
 
       {open && (
         <div className="md:hidden bg-white border-b border-slate-100">

@@ -26,11 +26,11 @@ const services = [
 
 export function Consulenze() {
   return (
-    <section id="consulenze" className="min-h-[100svh] bg-slate-50 flex items-start">
-      <div className="wrap mx-auto max-w-7xl pt-12 pb-12">
-        <div className="grid lg:grid-cols-2 gap-24 items-start">
-          <div>
-            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Le nostre consulenze</h2>
+    <section id="consulenze" className="min-h-[900px] bg-slate-50 py-16">
+      <div className="wrap mx-auto max-w-7xl">
+        <div className="grid lg:grid-cols-12 gap-24 items-start">
+          <div className="lg:col-span-6">
+            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Servizi energetici</h2>
             <p className="mb-8 text-lg text-slate-600 leading-relaxed">
               Servizi specialistici per la transizione energetica e digitale del Paese, rivolti a imprese,
               associazioni di categoria e pubbliche amministrazioni.
@@ -53,7 +53,7 @@ export function Consulenze() {
               ))}
             </div>
           </div>
-          <div className="relative">
+          <div className="lg:col-span-6 relative">
             <img
               src="/images/streamline.svg"
               alt="Servizi di consulenza"

@@ -1,10 +1,10 @@
 export function ChiSiamo() {
   return (
-    <section id="chi-siamo" className="min-h-[100svh] bg-white flex items-center">
+    <section id="chi-siamo" className="min-h-[900px] bg-white py-16">
       <div className="wrap mx-auto max-w-7xl">
-        <div className="grid lg:grid-cols-2 gap-24 items-start">
-          <div>
-            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Chi siamo</h2>
+        <div className="grid lg:grid-cols-12 gap-24 items-start">
+          <div className="lg:col-span-6">
+            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Il team Enimismi</h2>
             <p className="mb-6 text-lg text-slate-600 leading-relaxed">
               Innovatori esperti di energia e sostenibilità. Affianchiamo imprese, associazioni di categoria
               e pubbliche amministrazioni nel percorso verso un settore energetico più innovativo e più
@@ -15,7 +15,7 @@ export function ChiSiamo() {
               dei meccanismi di incentivo e mercato dell’energia italiana.
             </p>
           </div>
-          <div className="relative">
+          <div className="lg:col-span-6 relative">
             <img
               src="/images/risorsa-1.svg"
               alt="Team Eniminds"
