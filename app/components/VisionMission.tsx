@@ -4,7 +4,7 @@ export function VisionMission() {
       <div className="wrap mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-12 gap-24 items-start">
           <div className="lg:col-span-6">
-            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Visione energetica</h2>
+            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Vision e mission — sostenibilità energetica</h2>
             <p className="mb-6 text-lg text-slate-600 leading-relaxed">
               Innovazione del mercato energetico e transizione verso Industria 5.0. Crediamo che la
               sostenibilità non sia un costo, ma un vantaggio competitivo: meno emissioni, più efficienza,

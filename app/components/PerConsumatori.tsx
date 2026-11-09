@@ -4,7 +4,7 @@ export function PerConsumatori() {
       <div className="wrap mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-12 gap-24 items-start">
           <div className="lg:col-span-6">
-            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Servizi consumatori</h2>
+            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Per i consumatori — energia per imprese e PA</h2>
             <p className="mb-6 text-lg text-slate-600 leading-relaxed">
               Sostenibilità ESG, innovazione e gestione dell’energia per imprese, associazioni di categoria
               e pubbliche amministrazioni. Supporto concreto dalla scelta del fornitore alla gestione dei

@@ -4,7 +4,7 @@ export function Priorita() {
       <div className="wrap mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-12 gap-24 items-start">
           <div className="lg:col-span-6">
-            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Priorità ESG</h2>
+            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Le nostre priorità — ESG e innovazione</h2>
             <p className="mb-6 text-lg text-slate-600 leading-relaxed">
               L’innovazione tecnologica al servizio di una maggiore sostenibilità. Guidiamo la transizione
               energetica con strumenti concreti: diagnosi, gestione dell’energia, carbon management e

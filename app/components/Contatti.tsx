@@ -8,30 +8,24 @@ export function Contatti() {
       <div className="wrap mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-12 gap-24 items-start">
           <div className="lg:col-span-6">
-            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Contatti Enimismi</h2>
+            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Contatti — richiesta consulenza</h2>
             <p className="mb-8 text-lg text-slate-600 leading-relaxed">
               Chiedi informazioni sui nostri servizi. Compila il form e il nostro team ti contatterà al più
               presto per una consulenza personalizzata in base alle tue esigenze.
             </p>
 
             <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <span className="flex-shrink-0 mt-1 text-slate-900">▸</span>
-                <div>
-                  <p className="font-medium text-slate-900">Sede legale</p>
-                  <p className="text-sm text-slate-600">Via Emilia, San Lazzaro di Savena (BO)</p>
-                </div>
+              <div>
+                <p className="font-medium text-slate-900">Sede legale</p>
+                <p className="text-sm text-slate-600">Via Emilia, San Lazzaro di Savena (BO)</p>
               </div>
-              <div className="flex items-start gap-4">
-                <span className="flex-shrink-0 mt-1 text-slate-900">▸</span>
-                <div>
-                  <p className="font-medium text-slate-900">Email</p>
-                  <p className="text-sm text-slate-600">
-                    <Link href="mailto:info@eniminds.example" className="text-emerald-700 hover:underline underline-offset-4">
-                      info@eniminds.example
-                    </Link>
-                  </p>
-                </div>
+              <div>
+                <p className="font-medium text-slate-900">Email</p>
+                <p className="text-sm text-slate-600">
+                  <Link href="mailto:info@eniminds.example" className="text-emerald-700 hover:underline underline-offset-4">
+                    info@eniminds.example
+                  </Link>
+                </p>
               </div>
             </div>
           </div>
@@ -71,7 +65,7 @@ export function Contatti() {
                   type="submit"
                   className="w-full px-6 py-3 bg-emerald-700 text-white font-semibold rounded-md hover:bg-emerald-800 active:scale-[0.98] transition-transform"
                 >
-                  Invia richiesta
+                  Richiedi una consulenza
                 </button>
               </div>
             </form>

@@ -29,7 +29,7 @@ export function Hero() {
               href="/consulenze"
               className="px-6 py-3 border border-emerald-700 text-emerald-700 text-sm font-semibold rounded-md hover:bg-emerald-700 hover:text-white active:scale-95 transition-transform"
             >
-              Vedi i servizi
+              Scopri i servizi
             </Link>
           </div>
         </div>

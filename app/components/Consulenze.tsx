@@ -30,7 +30,7 @@ export function Consulenze() {
       <div className="wrap mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-12 gap-24 items-start">
           <div className="lg:col-span-6">
-            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Servizi energetici</h2>
+            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Le nostre consulenze — servizi specialistici</h2>
             <p className="mb-8 text-lg text-slate-600 leading-relaxed">
               Servizi specialistici per la transizione energetica e digitale del Paese, rivolti a imprese,
               associazioni di categoria e pubbliche amministrazioni.

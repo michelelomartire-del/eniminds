@@ -4,7 +4,7 @@ export function PerCondomini() {
       <div className="wrap mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-12 gap-24 items-start">
           <div className="lg:col-span-6">
-            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Gestione condomini</h2>
+            <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900">Per i condomini — property management sostenibile</h2>
             <p className="mb-6 text-lg text-slate-600 leading-relaxed">
               Sustainability and property management: dalla gestione ordinaria degli immobili a quella
               sostenibile che ne aumenta il valore. Servizi per condomini "con" e "senza" amministratore,
